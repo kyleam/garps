@@ -25,7 +25,7 @@ echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
   && /usr/sbin/update-locale LANG=en_US.UTF-8
 
 eatmydata apt-get install -y --no-install-recommends \
-  libcurl4-openssl-dev libssl-dev zlib1g-dev \
+  libcurl4-openssl-dev libssl-dev zlib1g-dev fonts-texgyre \
   gcc g++ gfortran libblas-dev liblapack-dev \
   make git git-annex-standalone pandoc \
   python3-docopt python3-pytest \
